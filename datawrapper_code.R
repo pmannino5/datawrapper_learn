@@ -11,7 +11,7 @@ library(dplyr)
 # set working directory
 setwd('/Users/petermannino/Documents/Exoneration')
 
-# download the exoneration dataset
+# import the exoneration dataset
 exon_dat<-readxl::read_excel('publicspreadsheet.xlsx')
 
 # set up connection with datawrapper api 

@@ -54,7 +54,7 @@ export_chart<-dw_export_chart(chart_id = dw_chart,
 export_chart # look at the chart
 
 # The exported chart is a magick class object, so use image_write from that package to save
-magick::image_write(export_chart,"dw_png.png")
+magick::image_write(export_chart,"line_graph_export.png")
 
 # Publish the chart online
 dw_publish_chart(chart_id = dw_chart)
